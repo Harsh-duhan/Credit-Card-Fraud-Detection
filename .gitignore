@@ -1,0 +1,32 @@
+.env/
+venv/
+env/
+.venv/
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Local data and generated artifacts
+creditcard.csv
+data/
+output/
+outputs/
+*.log
+
+# Model experiments can get large; keep the current exported model tracked if desired.
+models/
+checkpoints/
+
+# Environment and editor files
+.env.local
+.env.*.local
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Docker
+*.pid
